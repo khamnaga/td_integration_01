@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #DAEDE2;
+  font-size: 24px;
+}
+
+#black {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 405%;
+  background-color: #333745;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+.container {
+  /*box-sizing: border-box;*/
+  height: 4060px;
+  width: 90%;
+  background-color: #77C4D3;
+  margin: 5%;
+  z-index: 1;
+}
+
+hr {
+  width: 100%;
+  border: 0.5px solid #EA2E49;
+  margin-bottom: 40px;
+}
+
+/* Premier quart gauche de la page */
+#main_entete {
+  width: 100%;
+  height: 90px;
+  margin-bottom: -75px;
+}
+.pink_button {
+  width: 40%;
+  height: 90px;
+  color: #FFF;
+  background-color: #EA2E49;
+  float: left;
+}
+
+.pink_button p {
+  text-align: center;
+  line-height: 16px;
+  font-size: 35px;
+}
+#main_body p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+#main {
+  color: #FFF;
+  width: 55%;
+  height: 1200px;
+  background-color: #77C4D3;
+  padding: 5%;
+  float: left;
+  opacity: 0.9;
+}
+
+#main h2{
+  font-size: 155px;
+  /*margin-bottom: ;*/
+}
+
+#main_footer {
+  position: absolute;
+  left: 0;
+  width: 46.5%;
+  height: 420px;
+  color: black;
+  margin: 5% 5% 0 0;
+  padding: 3% 2.5% 1.5% 10%;
+  background-color: #FFF;
+}
+
+#main_footer h3 {
+  font-size: 50px;
+  margin-bottom: 1%;
+}
+
+#main_footer p {
+  font-size: 24px;
+}
+/* Div verte*/
+#green {
+  width: 33%;
+  height: 1435px;
+  float: right;
+  background-color: #f6f792;
+  margin-top: 6.1%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: inline-block;
+  z-index: 3;
+  position: relative;
+  opacity: 0.9;
+}
+
+#green h2 {
+  font-size: 50px;
+  display: inline;
+  margin-left: 16%;
+  margin-top: 5%
+}
+
+#green ul {
+  font-size: 1.75rem;
+  list-style-type:none;
+  margin-left: 9%;
+  margin-bottom: 20%;
+  line-height: 180%;
+}
+
+#green li {
+  margin-bottom: 1%;
+  padding-bottom: 1%;
+}
+
+/* DIVS about & participation */
+#about_part {
+  width: 100%;
+  height: 850px;
+  float: left;
+  margin-top: 10.2%;
+  font-size: 1.75rem;
+}
+
+#about, #participation {
+  box-sizing: border-box;
+  height: 850px;
+  width: 45%;
+  padding: 3% 3% 3%;
+  color: #FFF;
+  float: left;
+  line-height: 140%;
+}
+
+#participation {
+  z-index: 3;
+  opacity: 0.9;
+}
+
+#about h3, #participation h3 {
+  font-size: 50px;
+}
+
+#about p, #participation p {
+  font-size: 24px;
+}
+
+#about {
+  margin-left: 5%;
+}
+
+#participation {
+  background-color: #EA2E49;
+  position: relative;
+  z-index: 3;
+}
+
+/* Dernières sections */
+#bene_require {
+  box-sizing: border-bottom;
+  float: left;
+  width: 100%;
+  height: 1000px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.75rem;
+}
+
+#benefits {
+  padding: 3% 4% 3%;
+  float: left;
+  width: 15%;
+  margin-top: 9.5%;
+  background-color: #FFF;
+  opacity: 0.9;
+  line-height: 140%;
+}
+
+#benefits h2 {
+  font-size: 50px;
+}
+
+#requirements {
+  padding: 3.5% 4% 3.5%;
+  float: left;
+  width: 59%;
+  height: 1000px;
+  background-color: #FFF;
+  opacity: 0.9;
+  position: relative;
+  z-index: 3;
+  line-height: 140%;
+}
+
+#requirements h2 {
+  font-size: 50px;
+}
+
+/* Footer list */
+#footer_list {
+  float: left;
+  background-color: #f6f792;
+  opacity: 0.9;
+  width: 50%;
+  height: 90px;
+}
+
+#footer_list ul>li {
+  display: inline;
+  list-style-type:none;
+}
+
+/* Classes dotted & underline s'appliquant aux spans */
+.dotted {
+  border-bottom: 19px dotted #FFF;
+}
+
+.underline {
+  padding-bottom: 2px;
+  border-bottom: 0.08px solid grey;
+}
+
+.underline:hover {
+  border-bottom: 0.15px solid #EA2E49;
+  transition: all 0.4s ease-out;
+}
+
+/* Underline white */
+.underline.white:hover {
+  border-bottom: 0.15px solid #FFF;
+  transition: all 0.4s ease-out;
+}
+/* Classe grey */
+.grey {
+  color: grey;
+}
+
+/* Classe dotted words */
+.dotted-black {
+  border-bottom: 2.2px dotted;
+}
+
+.dotted-white {
+  border-bottom: 2.2px dotted #FFF;
+}
